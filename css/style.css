@@ -1,0 +1,28 @@
+body{
+    background-color: #eaeaea;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.principal{
+    width: 50%;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #e3e3e3;
+    border-radius: 5px;
+}
+
+label{
+    display: block;
+    font-weight: bold;;
+}
+
+input{
+    font-size: 16px;
+    padding: 5px;
+}
+
+.titulo{
+    font-weight: bold;
+}
