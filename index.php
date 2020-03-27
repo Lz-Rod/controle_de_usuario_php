@@ -9,7 +9,19 @@
 <body>
 
     <div class=principal>
-    
+    <?php 
+        if(isset($_GET['p'])) { /*essa sessão servirá para buscar a página colocando a extensão no fim da url e caso ela não exista retornará o erro 404*/
+            $pagina = $_GET['p'].".php";
+            if(is_file("conteudo/$pagina")){
+                include("conteudo/$pagina");
+            }else{
+                include("conteudo/404.php");
+            }
+                
+        }else{
+            include("conteudo/inicial.php");
+        }
+    ?>
     </div>
     
 </body>
