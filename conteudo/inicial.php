@@ -39,7 +39,7 @@
         ?></td>
         <td>
             <a href="index.php?p=editar&usuario=<?php echo $linha['codigo'];?>">Editar</a>
-            <a href="javascript: if(confirm('Tem certezxa que deseja deletar o usuario <?php echo $linha['nome'];?>?'))
+            <a href="javascript: if(confirm('Tem certeza que deseja deletar o usuario <?php echo $linha['nome'];?>?'))
             location.href='index.php?p=deletar&usuario=<?php echo $linha['codigo'];?>';">Deletar</a>
         </td>
     </tr>
