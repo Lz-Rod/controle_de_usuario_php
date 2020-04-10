@@ -105,20 +105,19 @@ error_reporting(0);
     <p><label for="email">E-mail</label>
     <input type="email" name="email" required></p>
 
-    <p><label for="sexo">Sexo</label>
+    <p>Sexo:
     <select name="sexo">
     <option value="1" >Feminino</option>
     <option value="2" >Masculino</option>
-    </select></p>
+    </select>
 
-    <p><label for="nivelDeAcesso">Nível de acesso</label>
+    Nível de acesso:
     <select name="nivelDeAcesso">
     <option value="1" >Básico</option>
     <option value="2" >Administrador</option>
     </select></p>
 
-    <p><label for="senha">Senha</label>
-    A senha deve conter entre 8 a 16 caracteres.
+    <p><label for="senha">Senha "de 8 a 16 caracteres"</label>
     <input type="password" name="senha" value="" required></p>
 
     <p><label for="rsenha">Repita a senha</label>

@@ -9,20 +9,47 @@ body{
     width: 50%;
     margin: 0 auto;
     background-color: #fff;
-    border: 1px solid #e3e3e3;
+    border: 3px solid #e3e3e3;
     border-radius: 5px;
+    padding: 15px;;
 }
 
 label{
     display: block;
-    font-weight: bold;;
+    font-weight: bold;
+    color: #555555;
+    text-align: left!important;
 }
 
 input{
-    font-size: 16px;
-    padding: 5px;
+    font-size: 20px;
+    width: 100%;
+}
+
+select{
+    font-size: 20px;
+    width: 100px;
 }
 
 .titulo{
     font-weight: bold;
+}
+h1{
+    text-align: center;
+}
+
+
+form{
+    width: 50%;
+    background-color: #eaeaea;
+    margin: 0 auto;
+    border: 3px #555555;
+    padding: 20px!important;
+    text-align: center;
+}
+
+p{
+    font-weight: bold;
+    color: #555555;
+    text-align: left!important;
 }

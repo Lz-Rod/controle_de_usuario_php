@@ -13,7 +13,7 @@
     
 ?>
 
-<h1>Usuários</h1>
+<h1>Cadastro de Usuários</h1>
 <a href="index.php?p=cadastrar">Cadastrar um usuário</a><br><br>
 <table border=1 cellpadding=10>
     <tr class=titulo>
