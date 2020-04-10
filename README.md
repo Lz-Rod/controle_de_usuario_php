@@ -1,6 +1,6 @@
-# Sistema para cadastro de usuário
+# Sistema para controle de usuário
 ## Codificado em PHP e MySQL e HTML
-Sistema para cadastro de usuário básico com armazenamento dos dados em mysql
+Sistema para controle de usuário básico com armazenamento dos dados em mysql
 
 ![print_sistema](https://github.com/LzRodriguez/controle_de_usuario_php/blob/master/images/tela_inicial.PNG)
 -Tela inicial onde são exibidos os usuários cadastrados, além dos links para cadastrar, editar e deletar usuários.
